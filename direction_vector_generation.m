@@ -7,8 +7,8 @@ function [ dir_rom ] = direction_vector_generation( BL, dim )
 %
 %   Statistics and Machine Learning Toolbox with function "sobolset" should be installed to run the
 %   code. Otherwise, download the Sobol generation program from https://people.smp.uq.edu.au/DirkKroese/montecarlohandbook/quasimc/
-%   and use function sobol() to replace sobolset(). Please also cite "D.P. Kroese, T. Taimre, Z.I. Botev (2011). Handbook of Monte Carlo Methods, 
-%   Wiley Series in Probability and Statistics, John Wiley and Sons, New
+%   and use function sobol() to replace sobolset(). Please also cite "D.P. Kroese, T. Taimre, Z.I. Botev (2011). 
+%   Handbook of Monte Carlo Methods, Wiley Series in Probability and Statistics, John Wiley and Sons, New
 %   York." if you use their code.
 %
 %   BL is the bit width of your Sobol sequence generator, and dim is the
